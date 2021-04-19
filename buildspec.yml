@@ -10,7 +10,7 @@ phases:
     pre_build:
         commands: 
             - echo "Installing source NPM dependencies"
-            - npm intsall
+          #  - npm intsall
     build:
         commands:
             - echo "we are in the build block"
