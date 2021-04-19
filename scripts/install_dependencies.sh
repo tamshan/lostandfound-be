@@ -1,4 +1,6 @@
 #!/bin/bash
 set -e
 yum update -y
-pm2 update
+sudo apt-get update
+sudo apt-get install nodejs -y
+sudo npm install forever -g
